@@ -1,0 +1,35 @@
+{
+  "name": "tracebit",
+  "version": "1.0.0",
+  "description": "Open source JavaScript framework for detecting AI-generated content, fraud, scams and bots on any webpage, TikTok, Instagram, Facebook and social media platforms",
+  "main": "src/index.js",
+  "type": "module",
+  "keywords": [
+    "ai-detection",
+    "artificial-intelligence",
+    "content-detection",
+    "fraud-detection",
+    "scam-detection",
+    "bot-detection",
+    "tiktok",
+    "instagram",
+    "facebook",
+    "social-media",
+    "chrome-extension",
+    "heatmap",
+    "open-source"
+  ],
+  "author": "Simon39soft",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simon39soft/tracebit"
+  },
+  "homepage": "https://github.com/simon39soft/tracebit",
+  "bugs": {
+    "url": "https://github.com/simon39soft/tracebit/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
