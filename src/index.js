@@ -39,6 +39,12 @@ import {
   rateLimiter
 } from './core/security.js'
 import { Sidebar } from './ui/sidebar.js'
+import { 
+  watchEmails,
+  watchGmail,
+  watchOutlook,
+  watchYahooMail
+} from './adapters/email-watcher.js'
 
 // ============================================
 // THE MAIN TRACEBIT OBJECT
@@ -312,4 +318,10 @@ export {
   analyzeEmailFile,
   extractFromFile
 } from './adapters/document.js'
+export {
+  watchEmails,
+  watchGmail,
+  watchOutlook,
+  watchYahooMail
+} from './adapters/email-watcher.js'
 export default tracebit
