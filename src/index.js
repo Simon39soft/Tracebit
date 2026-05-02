@@ -306,5 +306,10 @@ export {
   validateContent,
   Sidebar
 }
-
+export {
+  scanDocument,
+  analyzeReceipt,
+  analyzeEmailFile,
+  extractFromFile
+} from './adapters/document.js'
 export default tracebit
