@@ -42,6 +42,20 @@ Most platforms have zero real-time protection.
 
 ```bash
 npm install tracebit
+
+
+## ⚙️ Requirements
+
+Tracebit uses Claude AI as its detection engine.
+You need a free Anthropic API key to use it.
+
+Get your free key at:
+https://console.anthropic.com
+
+Create a .env file:
+ANTHROPIC_API_KEY=your_key_here
+
+Never share your API key publicly.
 ```
 
 ---
